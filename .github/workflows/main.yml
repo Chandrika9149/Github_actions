@@ -1,8 +1,8 @@
 name: first workflow
   on: push 
-   Jobs:
+   jobs:
       name: pushing 
-         runs-on : ubuntu-latest
-         Steps:
+         runs-on: ubuntu-latest
+         steps:
            name: greetings
            run: echo " welcome to first workflow"
